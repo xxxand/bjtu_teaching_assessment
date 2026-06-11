@@ -1,3 +1,5 @@
+[简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md)
+
 # BJTU Teaching Assessment One-Click Filler
 
 Three methods are provided below. Method 1 is personally tested and most recommended.

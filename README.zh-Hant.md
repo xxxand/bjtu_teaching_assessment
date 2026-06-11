@@ -1,3 +1,5 @@
+[简体中文](./README.md) | [繁體中文](./README.zh-Hant.md) | [English](./README.en.md)
+
 # 北京交通大學教務系統評教一鍵填寫教學
 
 下面提供三種方法，第一種親測有效，也最推薦。
