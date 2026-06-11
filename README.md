@@ -64,7 +64,7 @@
 javascript:(()=>{function c(t,a){const L=[...document.querySelectorAll('label')].filter(l=>l.innerText.trim()===t&&l.offsetParent!==null);const T=a?L:L.slice(0,1);T.forEach(l=>{const id=l.getAttribute('for');const i=id?document.getElementById(id):l.querySelector('input[type="radio"]');if(i&&!i.disabled){l.click();i.click();i.checked=true;i.dispatchEvent(new Event('input',{bubbles:true}));i.dispatchEvent(new Event('change',{bubbles:true}));}});return T.length}const a=c('符合',true);const b=c('优秀',false);const ts=[...document.querySelectorAll('textarea')].filter(e=>!e.disabled&&e.offsetParent!==null);ts.forEach(e=>{e.value='无';e.dispatchEvent(new Event('input',{bubbles:true}));e.dispatchEvent(new Event('change',{bubbles:true}));});alert(`已填写：符合 ${a} 个，优秀 ${b} 个，文本框 ${ts.length} 个。请检查后手动保存。`);})();
 ```
 
-进入具体科目的评教页面后，点击刚刚的书签即可动填写当前页面。
+进入具体科目的评教页面后，点击刚刚的书签即可自动填写当前页面。
 
 ## 3. 油猴注入
 
